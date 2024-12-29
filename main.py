@@ -1,12 +1,9 @@
-import requests
-import json
 from   bs4 import BeautifulSoup
-from   login import  By, os, time
-import pprint
-import re
+from   login import   os, time
 from  cleaner import  handle_divs, handle_link, init
 import logging
 from selenium import webdriver
+
 
 url = os.environ.get("url")
 
