@@ -1,0 +1,5 @@
+.env
+__pycache__
+.vscode
+base.log
+cookies.json
